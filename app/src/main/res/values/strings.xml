@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">WS_session1</string>
+    <string name="title_login">Войти в аккаунт</string>
+    <string name="title_hello">ПРИВЕТ</string>
+    <string name="title_no_account">Еще нет аккаунта? <b>Зарегистрируйтесь</b></string>
+    <string name="title_signIn">Sign in</string>
+    <string name="title_profile">Профиль</string>
+    <string name="title_register">Register</string>
+    <string name="title_email">Email</string>
+    <string name="title_pass">Пароль</string>
+    <string name="remove_title">удалить</string>
+    <string name="close_title">закрыть</string>
+</resources>

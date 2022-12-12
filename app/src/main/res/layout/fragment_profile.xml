@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#253334"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/hamburger"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center|top"
+            android:src="@drawable/logo"/>
+
+        <TextView
+            android:id="@+id/exit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|top"
+            android:textColor="@color/white"
+            android:text="exit"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/ic_launcher_background"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:cardCornerRadius="75dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/avatar"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:textSize="35sp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="20dp"
+            android:text="Эмиль"/>
+
+    </FrameLayout>
+
+    <GridView
+        android:layout_weight="1"
+        android:id="@+id/gvMain"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
+        android:horizontalSpacing="50dp"
+        android:numColumns="2">
+    </GridView>
+</LinearLayout>
